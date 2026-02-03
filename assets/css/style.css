@@ -1,0 +1,44 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://img.freepik.com/fotos-premium/banner-cocina-fondo-especias-verduras-vista-superior-espacio-libre-su-texto_187166-48329.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15) !important;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.btn-primary {
+    background-color: #e7b900;
+    border-color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #e7b900;
+    border-color: #ffffff;
+}
+
+/* Estilo extra para el mensaje de error */
+.alert-info {
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
