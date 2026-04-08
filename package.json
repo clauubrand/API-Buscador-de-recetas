@@ -1,0 +1,27 @@
+{
+  "name": "ef-m4",
+  "version": "1.0.0",
+  "description": "<img width=\"1880\" height=\"907\" alt=\"{E9756685-3DF0-4E6E-ABD1-A8FF0AAA724C}\" src=\"https://github.com/user-attachments/assets/fe6cda06-9ca3-42d2-8673-ba6e42a697a7\" />",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clauubrand/EF--M4-Proyecto-Integrador-Sprint-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/clauubrand/EF--M4-Proyecto-Integrador-Sprint-2/issues"
+  },
+  "homepage": "https://github.com/clauubrand/EF--M4-Proyecto-Integrador-Sprint-2#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1"
+  }
+}
