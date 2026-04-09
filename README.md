@@ -34,15 +34,15 @@ Se intercepta el evento submit
 Se realiza la petición a la API
 Se procesan los datos recibidos
 Se renderizan las recetas en el DOM
-🖼️ Renderizado
 
+-🖼️ Renderizado
 Cada receta se muestra como una tarjeta que incluye:
-
-Nombre de la receta
-Imagen
-Estilos con Bootstrap
+ -Nombre de la receta
+ -Imagen
+ -Estilos con Bootstrap
 
 ⚡ Manejo de Estados
+--
 Estado	Comportamiento
 Búsqueda válida	Muestra recetas
 Nueva búsqueda	Limpia resultados anteriores
