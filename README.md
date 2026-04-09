@@ -6,26 +6,29 @@
 📄 Descripción  
 --
 Aplicación web que permite buscar recetas en tiempo real a partir de un ingrediente, consumiendo la API pública de TheMealDB.
-
 Entrega una experiencia dinámica sin recargar la página, mostrando resultados de forma rápida e interactiva mediante JavaScript moderno.
----
+
 🚀 Funcionalidades
-🔎 Búsqueda de Recetas
+--
+-🔎 Búsqueda de Recetas
 Se previene la recarga de la página al enviar el formulario
 Se captura el valor del input de búsqueda
 Se realiza una petición asíncrona con fetch
 Uso de async/await para consumir la API
-🧩 Renderizado Dinámico
+
+-🧩 Renderizado Dinámico
 El contenedor inicia vacío (sin contenido hardcodeado)
 Se generan tarjetas dinámicamente por cada receta
 Uso de template literals (ES6+)
 Extracción de datos con destructuring
 Limpieza de resultados antes de cada nueva búsqueda
-⚠️ Manejo de Errores
+
+-⚠️ Manejo de Errores
 Detección cuando meals es null
 Mensaje al usuario:
 Lo sentimos, no se encontraron recetas. Intenta con otro ingrediente.
-⚙️ Funcionamiento
+
+-⚙️ Funcionamiento
 El usuario ingresa un ingrediente
 Se intercepta el evento submit
 Se realiza la petición a la API
@@ -38,18 +41,23 @@ Cada receta se muestra como una tarjeta que incluye:
 Nombre de la receta
 Imagen
 Estilos con Bootstrap
+
 ⚡ Manejo de Estados
 Estado	Comportamiento
 Búsqueda válida	Muestra recetas
 Nueva búsqueda	Limpia resultados anteriores
 Sin resultados	Muestra mensaje informativo
+
 🛠️ Tecnologías
+--
 HTML5
 CSS3 / Bootstrap
 JavaScript (ES6+)
 Fetch API
 TheMealDB API
+
 📌 Requisitos Técnicos
+--
 Código JavaScript centralizado en app.js
 Uso de let y const
 Arrow functions
@@ -57,8 +65,9 @@ Template literals
 Destructuring
 async/await
 Manipulación del DOM
-📦 Instalación
 
+📦 Instalación
+--
 Clonar el repositorio:
 
 git clone https://github.com/clauubrand/API-Buscador-de-recetas.git
@@ -72,6 +81,7 @@ Ejecutar:
 Abrir el archivo index.html en el navegador.
 
 📁 Estructura del Proyecto
+--
 API-Buscador-de-recetas
 ┣ 📜 index.html
 ┣ 📜 styles.css
@@ -82,20 +92,22 @@ API-Buscador-de-recetas
 TheMealDB (API pública de recetas)
 
 https://www.themealdb.com/api/json/v1/1/filter.php?i=[ingrediente]
-📌 Entregable
 
+📌 Entregable
+--
 Repositorio público en GitHub con la aplicación completamente funcional.
 
 ⭐ Conclusión
-
+--
 Este proyecto demuestra:
 
 Consumo de APIs externas
 Programación asíncrona moderna
 Manipulación dinámica del DOM
 Buenas prácticas con JavaScript ES6+
-👨‍💻 Autor
 
+👨‍💻 Autor
+--
 Claudio Melo
 GitHub: https://github.com/clauubrand
 Este proyecto demuestra el uso de:
