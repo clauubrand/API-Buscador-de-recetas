@@ -109,7 +109,7 @@ Buenas prácticas con JavaScript ES6+
 👨‍💻 Autor
 --
 Claudio Melo
-GitHub: https://github.com/clauubrand
+Acceso demo en vivo: https://api-buscador-de-recetas.onrender.com/
 Este proyecto demuestra el uso de:
 
 Consumo de APIs externas
