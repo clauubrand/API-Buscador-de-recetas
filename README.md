@@ -2,9 +2,9 @@
 <img width="1880" height="907" alt="{E9756685-3DF0-4E6E-ABD1-A8FF0AAA724C}" src="https://github.com/user-attachments/assets/fe6cda06-9ca3-42d2-8673-ba6e42a697a7" />
 
 🍳 API - Buscador de Recetas
-
-📄 Descripción
-
+--
+📄 Descripción  
+--
 Aplicación web que permite buscar recetas en tiempo real a partir de un ingrediente, consumiendo la API pública de TheMealDB.
 
 Entrega una experiencia dinámica sin recargar la página, mostrando resultados de forma rápida e interactiva mediante JavaScript moderno.
