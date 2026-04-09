@@ -109,7 +109,8 @@ Buenas prácticas con JavaScript ES6+
 👨‍💻 Autor
 --
 Claudio Melo
-👨‍💻Acceso demo en vivo
+
+🌐 Acceso demo en vivo
 --
  https://api-buscador-de-recetas.onrender.com/
 
